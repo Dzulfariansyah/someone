@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
-    page_title="Wanda Maharani 🖤💖",
+    page_title="About You 🖤💖",
     page_icon="🖤",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -115,6 +115,7 @@ st.markdown("""
 
 # --- HEADER ---
 st.markdown('<h1 class="main-title">ABOUT YOU</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">WANDA MAHARANI</h1>', unsafe_allow_html=True)
 st.write("---")
 
 # --- KONTEN ---
@@ -342,4 +343,5 @@ with col_btn2:
     if st.button("KIWWWW LOVE UU SO MUCHHH BABYYY ❤️"):
 
         st.balloons()
+
 
