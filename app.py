@@ -5,6 +5,7 @@ import streamlit.components.v1 as components
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
     page_title="About You 🖤💖",
+     page_title="Wanda Maharani",
     page_icon="🖤",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -340,4 +341,5 @@ st.markdown("<h3 style='text-align:center; color:#ff69b4;'>I Love You 🖤</h3>"
 col_btn1, col_btn2, col_btn3 = st.columns([1,1,1])
 with col_btn2:
     if st.button("KIWWWW LOVE UU SO MUCHHH BABYYY ❤️"):
+
         st.balloons()
